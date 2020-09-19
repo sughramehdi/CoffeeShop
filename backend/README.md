@@ -37,7 +37,7 @@ From within the `./src` directory first ensure you are working using your create
 Each time you open a new terminal session, run:
 
 ```bash
-export FLASK_APP=api.py;
+export FLASK_APP=app.py;
 ```
 
 To run the server, execute:
@@ -50,7 +50,7 @@ The `--reload` flag will detect file changes and restart the server automaticall
 
 ## Tasks
 
-### Setup Auth0
+### Setup Auth0 - Completed
 
 1. Create a new Auth0 Account
 2. Select a unique tenant domain
@@ -77,7 +77,7 @@ The `--reload` flag will detect file changes and restart the server automaticall
     - Run the collection and correct any errors.
     - Export the collection overwriting the one we've included so that we have your proper JWTs during review!
 
-### Implement The Server
+### Implement The Server - Completed
 
 There are `@TODO` comments throughout the `./backend/src`. We recommend tackling the files in order and from top to bottom:
 
